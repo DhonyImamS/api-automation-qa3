@@ -1,9 +1,9 @@
-const mochaGlobalHook = {
-    before: async function() {
+const mochaHooks = {
+    beforeAll: async function() {
         console.log('INI ADALAH GLOBAL HOOKS');
     }
 };
 
 module.exports = {
-    mochaGlobalHook
+    mochaHooks
 };
