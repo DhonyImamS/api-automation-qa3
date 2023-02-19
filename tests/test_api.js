@@ -1,28 +1,3 @@
-
-// FUNCTIONAL PROGRAMMING, CALLBACK 
-
-// function siPalingNgeLog(input) {
-//     return console.log(input);
-// }
-
-// function sum(a, b) {
-//     const result = a + b;
-//     return console.log(result)
-// }
-
-// function sum2(a, b, hula) {
-//     const result = a + b;
-//     return hula(result);
-// }
-
-// sum(1,9);
-
-// sum2(1,9,siPalingNgeLog);
-
-// sum2(1,9,function siPalingNgeLog(input) {
-//     return console.log(input);
-// });
-
 const expect = require('chai').expect;
 const apiUnderTest = require('../api/api_reqres');
 

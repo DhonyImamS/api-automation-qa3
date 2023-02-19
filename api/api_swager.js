@@ -9,6 +9,13 @@ function createUser(data) {
         .send(data);
 }
 
+function getUser(userName) {
+    return serverAPI
+        .get(`/users?name=${userName}`)
+        .set('Authorization', 1234);
+}
+
 module.exports = {
-    createUser
+    createUser,
+    getUser
 }
