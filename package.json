@@ -6,7 +6,7 @@
   "scripts": {
     "hulahula": "python --version",
     "check-mocha-version": "npx mocha --version",
-    "test-api": "npx mocha ./tests/**/*.js --timeout=5000 --hooks ./hooks/hooks.js --reporter mochawesome"
+    "test-api": "npx mocha ./tests/**/*.js --timeout=5000 --require ./hooks/hooks.js --reporter mochawesome"
   },
   "author": "DhonyImamS",
   "license": "ISC",
